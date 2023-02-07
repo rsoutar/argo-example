@@ -6,7 +6,7 @@ ENV FLASK_RUN_PORT=80
 ENV CUSTOM_HEADER='Containerized Webapp'
 ENV BG_COLOR=white
 ENV FONT_COLOR=black
-ENV CUSTOM_PHOTO='https://raw.githubusercontent.com/rsoutar/argo-example/webapp/main/argo.png'
+ENV CUSTOM_PHOTO='https://raw.githubusercontent.com/rsoutar/argo-example/main/webapp/argo.png'
 RUN apk add --no-cache gcc musl-dev linux-headers
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
