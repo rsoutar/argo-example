@@ -10,7 +10,7 @@ spec:
         - name: mycontainer
           image: "neomatic/webapp:latest"
           ports:
-            - containerPort: 80
+            - containerPort: 8888
           envFrom:
             - configMapRef:
                 name: mykustom-map
